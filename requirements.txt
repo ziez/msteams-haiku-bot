@@ -2,3 +2,7 @@ textstat
 black
 flake8
 pytest
+botbuilder-core
+aiohttp
+botbuilder-testing
+pytest-asyncio
