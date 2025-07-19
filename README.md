@@ -13,5 +13,6 @@ of zen and fun into the development process.
 Run the tests with:
 
 ```bash
+pip install -r requirements.txt
 pytest
 ```

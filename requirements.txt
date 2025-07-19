@@ -1,0 +1,4 @@
+textstat
+black
+flake8
+pytest
