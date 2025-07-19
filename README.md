@@ -2,8 +2,10 @@
 
 Energize your team chats with a dash of poetry! **msteams-haiku-bot** listens
 for messages that just happen to match the classic 17‑syllable footprint and
-recasts them in a playful 5-7-5 form. It's a lightweight way to sprinkle a bit
-of zen and fun into the development process.
+recasts them in a playful 5-7-5 form. Syllables are counted with the
+`textstat` library, giving a reasonable approximation of natural language. It's
+a lightweight way to sprinkle a bit of zen and fun into the development
+process.
 
 ## Project Structure
 
@@ -13,5 +15,6 @@ of zen and fun into the development process.
 Run the tests with:
 
 ```bash
+pip install -r requirements.txt
 pytest
 ```
