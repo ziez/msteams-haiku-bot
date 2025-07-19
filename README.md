@@ -16,3 +16,11 @@ Run the tests with:
 pip install -r requirements.txt
 pytest
 ```
+
+To run the bot with Microsoft Teams:
+
+```bash
+export MicrosoftAppId="<your-app-id>"
+export MicrosoftAppPassword="<your-password>"
+python -m haiku_bot.server
+```
